@@ -10,14 +10,14 @@ export const Container = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 20px;
+  font-size: 24px;
   color: #f4ede8;
   font-family: 'RobotoSlab-Medium';
   margin: 64px 0 24px;
 `;
 
 export const ForgotPassword = styled.TouchableOpacity`
-  margin-top: 24px;
+  margin-top: 25px;
 `;
 
 export const ForgotPasswordText = styled.Text`
