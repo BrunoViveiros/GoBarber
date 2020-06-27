@@ -70,10 +70,7 @@ const AuthProvider: React.FC = ({ children }) => {
 
       setData({
         token: data.token,
-        user: {
-          ...data.user,
-          ...user,
-        },
+        user,
       });
     },
     [setData, data.token],
